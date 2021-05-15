@@ -1,0 +1,4 @@
+************************************Player işlemci hızında ilerleyecek sadece belli süreye gelince yön değiştirebilecek
+duvarlar
+rastgele duvarlar
+random harita mantığı

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SfmlGame", "SfmlGame\SfmlGame.vcxproj", "{C7317292-5645-42E6-BCCD-54FAA52E24B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7317292-5645-42E6-BCCD-54FAA52E24B1}.Debug|x64.ActiveCfg = Debug|x64
+		{C7317292-5645-42E6-BCCD-54FAA52E24B1}.Debug|x64.Build.0 = Debug|x64
+		{C7317292-5645-42E6-BCCD-54FAA52E24B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7317292-5645-42E6-BCCD-54FAA52E24B1}.Debug|x86.Build.0 = Debug|Win32
+		{C7317292-5645-42E6-BCCD-54FAA52E24B1}.Release|x64.ActiveCfg = Release|x64
+		{C7317292-5645-42E6-BCCD-54FAA52E24B1}.Release|x64.Build.0 = Release|x64
+		{C7317292-5645-42E6-BCCD-54FAA52E24B1}.Release|x86.ActiveCfg = Release|Win32
+		{C7317292-5645-42E6-BCCD-54FAA52E24B1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DAE1D7F-47C2-4257-9FA0-19EB69FF9D69}
+	EndGlobalSection
+EndGlobal
