@@ -12,8 +12,7 @@ Vector2f Walls::Random()
 	float x, y;
 	x = (int)((rand() % mapsize)*psize + psize / 2);
 	y = (int)((rand() % (mapsize - 2))*psize + psize / 2 + psize * 2);
-	walls[wallindex].setPosition(x, y);
-	wallindex++;
+	return Vector2f(x, y);
 }
 
 
@@ -24,6 +23,7 @@ void Walls::wallcreate()
 	walltemp.setSize(Vector2f(size, size));
 	walltemp.setOrigin(walltemp.getSize().x / 2, walltemp.getSize().y / 2);
 	walltemp.setPosition(Random());
+	wallindex++;
 	walltemp.setFillColor(Color(125,145,175));
 	walls.push_back(walltemp);
 }

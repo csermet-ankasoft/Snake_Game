@@ -4,7 +4,6 @@
 #include <time.h>
 #include "player.h"
 #include "Bait.h"
-#include "bullet.h"
 
 using namespace sf;
 using namespace std;
@@ -85,7 +84,7 @@ int main()
 	//bait.Position(window.getSize().x, window.getSize().y,size);
 	//---------------------------------------Class----------------------------------------------
 	//---------------------------------------LOOP----------------------------------------------	
-	vector<Bait*> x;						//TEST
+	/*vector<Bait*> x;						//TEST
 	for (int i = 0; i < 20000; i++)
 	{
 		Bait *z = new Bait(baitsize,temptexture);
@@ -93,7 +92,7 @@ int main()
 			z->BaitRandom(psize, mapsize);
 		while (baitcheck(*z, snake));
 		x.push_back(z);
-	}
+	}*/
 	while (window.isOpen())
 	{		
 		Event event;
@@ -124,10 +123,10 @@ int main()
 			deltaTime = clock.getElapsedTime().asMilliseconds();
 			snake.Draw(window);
 			bait.Draw(window);
-			for (int i = 0; i < 20000; i++)						//TEST
+			/*for (int i = 0; i < 20000; i++)						//TEST
 			{
 				x[i]->Draw(window);
-			}
+			}*/
 			window.display();
 			if (snake.CollisionDetection(bait.baitbody, 0.0f) == player::Collision::bait)
 			{
